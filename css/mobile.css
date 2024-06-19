@@ -1,0 +1,371 @@
+@media screen and (min-width: 1px) and (max-width: 480px){
+.container{
+     min-width: 1px;
+    max-width: 480px;
+  margin: 0 auto;
+}
+.footer-img{
+    width: 25px;
+    height: 25px;
+}
+.img-fo{
+    width: 300px;
+    height: 35px;
+    grid-column: 3/6;
+    grid-row:8/9;
+    margin-top: 20px;
+}
+.mobi{
+	width: 300px;
+	position: relative;
+	display: flex;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.li{
+    font-size: 12px;
+    line-height: 11px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: flex-end;
+    letter-spacing: 0.01em;
+    color: #9C9C9C;
+    text-decoration: none;
+    margin-left: 120px;
+}
+.Rectengle1{
+	display: none;
+}
+.inpu{
+	display: none;
+}
+span{
+	height: 5px;
+	width: 30px;
+	position: absolute;
+	background: #1B1B1B;
+	margin-top: 10px;
+	margin-left: 2px;
+}
+input:checked~ul>li{
+       display: block;
+}
+span::before,span::after{
+	content:" ";
+	position: absolute;
+	width: 30px;
+	height: 5px;
+	background: #1B1B1B;
+
+}
+span::after{
+	top: 8px;
+}
+span::before{
+	top: -8px;
+}
+li{
+	display: none;
+}
+input:checked~label>span{
+	background: transparent;
+}
+input:checked~label>span::before{
+	 content: "";
+     transform:rotate(45deg) ;
+     top: 1px;
+}
+input:checked~label>span::after{
+	content: "";
+     transform:rotate(-45deg) ;
+     top: 1px;
+}
+.Heading{ 
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 10px;
+ }
+ .top-text{
+    font-size: 7px;
+    line-height: 11px;
+}
+.Intro-text{
+font-size: 12px;
+line-height: 21px;
+color: #9C9C9C;
+margin-bottom: 20px;
+}
+.worked-with{
+font-size: 10px;
+line-height: 13px;
+margin-left: 15px;
+}
+.logo{
+    border-radius: 4px;
+    width: 100px;
+    height: 35px;
+}
+.header-text{
+    width: 320px;
+    height: 230px;
+    margin-left: 100px;
+}
+.myphoto{
+  width: 350px;
+  height: 470px;
+  display: block;
+}
+.button{
+font-size: 16px;
+line-height: 22px;
+}
+.button-home{
+    height: 40px;
+    width: 260px;
+}
+.text-work{
+font-size: 12px;
+line-height: 13px;
+}
+.work{
+    width: 460px;
+    height: 30px;
+    margin-left: 35px;
+}
+.photo1x{
+	height: 230px;
+	width: 230px;
+	margin-left: 120px;
+}
+.top-section{
+	   min-width: 1px;
+    max-width: 480px;
+	height: 665px;
+}
+.second{
+    min-width: 1px;
+    max-width: 480px;
+    height: 870px;
+}
+.opa{
+    width: 225px;
+    height: 200px;
+    border-radius: 6px;
+}
+.ops{
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+.Myprojects{
+font-size: 25px;
+line-height: 27px;
+}
+.downtext{
+font-size: 12px;
+line-height: 16px;
+}
+.proje{
+    width: 180px;
+    height: 110px;
+    margin-left: 170px;
+}
+.help{
+    height: 160px;
+    width: 467px;
+    margin-left: 11px;
+}
+.proyekt{
+    width: 210px;
+}
+.ty{
+    width: 428px;
+}
+.workname{
+font-size: 20px;
+line-height: 27px;
+}
+.project{
+    width: 300px;
+    height: 110px;
+    margin-top: 20px;
+}
+.hh{
+    width: 210px;
+}
+.helped{
+    height: 200px;
+    width: 480px;
+
+
+}
+.pname{
+font-size: 12px;
+line-height: 20px;
+}
+.do{
+	width: 225px;
+}
+.Third{
+    height: 640px;
+      min-width: 1px;
+    max-width: 480px;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(12, 50px);
+}
+.skil{
+    font-size: 25px;
+    line-height: 30px;
+    grid-column:3/8;
+}
+.skill{
+    font-size: 11px;
+   line-height: 16px;
+   grid-column:3/8;
+}
+.Xardskills{
+   font-size: 16px;
+   line-height: 20px;
+   grid-column:4/8;
+   grid-row: 3/3;
+   margin-left: 35px;
+}
+.Softskills{
+   font-size: 16px;
+   line-height:20px;
+   grid-row: 8/8;
+    grid-column:4/8;
+   margin-left: 35px;
+}
+.pink{
+   width: 290px;
+   height: 35px;
+   border-radius: 6px;
+}
+.pinktext{
+   font-size: 10px;
+   line-height: 17px;
+   padding-left: 10px;
+}
+.Soft{
+   font-size: 12px;
+   line-height: 18px;
+   padding-left: 10px;
+}
+.pintext{
+   font-size: 11px;
+   line-height: 18px;
+   padding-left: 110px;
+}
+.e{
+    padding-left: 184px;
+}
+.f{
+    padding-left: 170px;
+}
+.g{
+	padding-left: 190px;
+}
+.one{
+	grid-row:4/4;
+    grid-column:3/8;
+}
+.two{
+	grid-row: 5/5;
+    grid-column:3/8;
+}
+.three{
+    grid-row: 6/6;
+    grid-column:3/8;
+}
+.four{
+	grid-row: 7/7;
+    grid-column:3/8;
+}
+.five{
+	grid-row: 9/9;
+    grid-column:3/8;
+}
+.six{
+	grid-row: 10/10;
+    grid-column:3/8;
+}
+.seven{
+	grid-row: 11/11;
+    grid-column:3/8;
+}
+.eight{
+	grid-row: 12/12;
+    grid-column:3/8;
+}
+.footer{
+      min-width: 1px;
+    max-width: 480px;
+   height: 55px;
+}
+.Foot{
+   font-size: 10px;
+   line-height: 13px;
+}
+.contactinfo{
+    min-width: 1px;
+    max-width: 480px;
+  height: 440px;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 50px);
+}
+.white{
+    grid-column: 2/8;
+    grid-row: 1/1;
+}
+.Cont{
+   grid-column:2/8;
+   grid-row: 2/2;
+   font-size: 13px;
+   line-height: 17px;
+}
+.input{
+    margin: 5px;
+}
+.label{
+  font-size: 8px;
+  line-height: 12px;
+}
+.form{
+    grid-column:3/5;
+    grid-row: 3/6;
+}
+.on{
+    width: 300px;
+    height: 30px;
+}
+.thr{
+    width: 300px;
+    height: 60px;
+}
+.button-down{
+    height: 45px;
+    width: 330px;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.button-down{
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    margin-top: 13px;
+    margin-left: 6x;
+}
+.baton{
+    width: 300px;
+    height: 40px;
+     grid-column:3/8;
+     grid-row: 7/7;   
+}
+.do{
+    width: 200px;
+}
+}
